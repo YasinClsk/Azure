@@ -7,6 +7,7 @@ namespace Test.Controllers
     [ApiController]
     public class CryptographyController : ControllerBase
     {
+        [HttpGet("datetime")]
         public IActionResult CurrentDateTime()
         {
             var dateTime = DateTime.Now;
