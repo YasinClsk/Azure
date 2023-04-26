@@ -1,6 +1,6 @@
-﻿using Kripto_Odev;
-using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Test.Odev1;
 
 namespace Test.Controllers
 {
